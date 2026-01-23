@@ -1,0 +1,79 @@
+/* :root{
+    background-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+} */
+.todo_container {
+    /* background-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+    /* background-color: linear-gradient(135deg, #6a11cb,#2575fc); */
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.todo {
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 12px;
+}
+.task {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+.btn {
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(238, 221, 221);
+}
+.todo_container li{
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 5px 7px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn_list{
+    display: flex;
+        gap: 3px;
+}
+.btn-edit,.btn-delete,.btn-save{
+    width: 70px;
+    height: 28px;
+margin: auto;
+/* transition: background-color 0.3s ease; */
+    color: rgb(242, 226, 226);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-delete{
+    background-color: #e63946;
+}
+.btn-edit{
+    background-color: #9958f5;
+}
+.btn-save{
+    background-color: #27ae60;
+}
+.list-todo input{
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+    font-size: 14px;
+    font-weight: 500;
+}
+.list{
+    margin: 5px 0;
+}
